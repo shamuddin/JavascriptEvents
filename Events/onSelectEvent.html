@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnSelect Event</title>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "You selected some text";
+        }
+    </script>
+</head>
+
+<body>
+    Some text: <input type="text" value="Hello world!" onselect="myFunction()">
+
+    <p id="demo"></p>
+</body>
+
+</html>
